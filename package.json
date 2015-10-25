@@ -1,0 +1,30 @@
+{
+  "name": "b4a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/http-server/bin/http-server",
+    "build": "./node_modules/gulp/bin/gulp.js sass",
+    "dist": "./node_modules/gulp/bin/gulp.js sass-min",
+    "watch": "./node_modules/gulp/bin/gulp.js sass:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcopeg/twb4a.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcopeg/twb4a/issues"
+  },
+  "homepage": "https://github.com/marcopeg/twb4a#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "http-server": "^0.8.5",
+    "node-sass": "^3.3.3"
+  }
+}
