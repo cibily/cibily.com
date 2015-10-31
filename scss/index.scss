@@ -2,3 +2,25 @@
 // my custom bootstrap
 @import "./variables";
 @import "./bootstrap";
+
+
+
+// my custom style
+
+@mixin wrapper-fluid {
+	background-color: #006699;
+	color: #000;
+}
+
+.wrapper-title {
+	@include wrapper-fluid;
+	text-align: center;
+	height: 70px;
+	line-height: 70px;
+}
+
+.marketing {
+	margin-top: 30px;
+	margin-bottom: 30px;	
+	text-align: center;
+}
